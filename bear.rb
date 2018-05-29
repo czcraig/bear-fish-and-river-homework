@@ -12,4 +12,8 @@ attr_reader(:name, :type)
    @stomach_content
  end
 
+ def bear_eats_fish(fish)
+  @stomach_content << fish
+ end
+
 end

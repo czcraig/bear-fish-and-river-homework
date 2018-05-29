@@ -6,9 +6,6 @@ class Fish
   end
 
 
-  def bear_eats_fish
-   @bears.stomach_content << @fish.name
-  end
 
 
 
