@@ -1,10 +1,12 @@
 require ("minitest/autorun")
 require_relative("../bear.rb")
+require_relative("../fish.rb")
 
 class BearTest < MiniTest::Test
 
  def setup
   @bear = Bear.new("Yogi", "Grizzly")
+  @fish = Fish.new("Gary")
  end
 
   def test_bear_name
